@@ -1,4 +1,4 @@
-with orders as (
+with _stage_orders as (
 
     select
         id as order_id,
@@ -10,4 +10,4 @@ with orders as (
 
 )
 
-select * from orders
+select * from Stage_orders

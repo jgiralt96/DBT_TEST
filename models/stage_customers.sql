@@ -1,4 +1,4 @@
-with customers as (
+with stage_customers as (
 
     select
         id as customer_id,
@@ -9,4 +9,4 @@ with customers as (
 
 )
 
-select * from customers
+select * from stage_customers
